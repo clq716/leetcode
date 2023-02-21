@@ -57,7 +57,8 @@
 
 package leetcode.editor.cn.april;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class ValidParentheses{
     public static void main(String[] args) {
@@ -67,9 +68,9 @@ public class ValidParentheses{
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new ArrayDeque<>();
         for (char code : s.toCharArray()) {
-            if (stack.empty()) {
+            if (stack.isEmpty()) {
                 stack.push(code);
             } else {
                 int b = code - stack.peek();
