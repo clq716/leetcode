@@ -39,7 +39,7 @@
 //输出: true 
 // Related Topics 栈 字符串
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class ValidParentheses{
     public static void main(String[] args) {
        Solution solution = new ValidParentheses().new Solution();

@@ -38,7 +38,7 @@
 // 
 // Related Topics 数组 双指针
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class RemoveDuplicatesFromSortedArray{
     public static void main(String[] args) {
        Solution solution = new RemoveDuplicatesFromSortedArray().new Solution();

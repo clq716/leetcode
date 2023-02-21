@@ -50,7 +50,7 @@
 //解释: M = 1000, CM = 900, XC = 90, IV = 4. 
 // Related Topics 数学 字符串
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class RomanToInteger{
     public static void main(String[] args) {
        Solution solution = new RomanToInteger().new Solution();

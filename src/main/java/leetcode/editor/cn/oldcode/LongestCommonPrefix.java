@@ -20,7 +20,7 @@
 // 所有输入只包含小写字母 a-z 。 
 // Related Topics 字符串
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 
 public class LongestCommonPrefix{
     public static void main(String[] args) {

@@ -11,7 +11,7 @@
 // 
 // Related Topics 数组 哈希表
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 
 import java.util.HashMap;
 

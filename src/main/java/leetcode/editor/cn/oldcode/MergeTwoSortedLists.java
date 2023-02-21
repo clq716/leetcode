@@ -7,7 +7,7 @@
 // 
 // Related Topics 链表
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class MergeTwoSortedLists{
 //    public static void main(String[] args) {
 //       Solution solution = new MergeTwoSortedLists().new Solution();

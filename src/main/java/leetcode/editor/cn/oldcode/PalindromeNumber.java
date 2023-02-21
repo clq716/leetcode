@@ -25,7 +25,7 @@
 // 你能不将整数转为字符串来解决这个问题吗？ 
 // Related Topics 数学
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class PalindromeNumber{
     public static void main(String[] args) {
        Solution solution = new PalindromeNumber().new Solution();

@@ -23,7 +23,7 @@
 // 假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231, 231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。 
 // Related Topics 数学
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.oldcode;
 public class ReverseInteger{
     public static void main(String[] args) {
         Solution solution = new ReverseInteger().new Solution();
@@ -47,7 +47,7 @@ class Solution {
         for (char c : str) {
             result.insert(0, c);
         }
-        long i = (x<0?Long.parseLong("-"+result.deleteCharAt(result.length()-1).toString()) : Long.parseLong(result.toString()));
+        long i = (x<0?Long.parseLong("-"+ result.deleteCharAt(result.length()-1)) : Long.parseLong(result.toString()));
         return i == (int)i ? (int)i : 0;
     }
 }
