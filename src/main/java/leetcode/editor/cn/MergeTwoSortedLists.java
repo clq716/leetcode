@@ -41,7 +41,7 @@ import lombok.val;
 
 public class MergeTwoSortedLists{
     public static void main(String[] args) {
-        Solution solution = new MergeTwoSortedLists().new Solution();
+        BetterSOlution solution = new MergeTwoSortedLists().new BetterSOlution();
         ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode result = solution.mergeTwoLists(list1, list2);
@@ -93,6 +93,25 @@ class Solution {
         return result;
     }
 }
+
+class BetterSOlution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode curr = new ListNode(0), dum = curr;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
+            } else {
+                curr.next = l2;
+                l2 = l2.next;
+            }
+            curr = curr.next;
+        }
+        curr.next = l1 == null ? l2 : l1;
+        return dum.next;
+    }
+}
+
 public static class ListNode {
     int val;
     ListNode next;
