@@ -1,0 +1,17 @@
+	class Solution {
+		public int maxProfit(int[] prices) {
+			int i = 0, maxdelta = 0, premin = prices[0];
+			while (i++<prices.length-1) {
+				if (premin > prices[i]) {
+					premin = prices[i];
+				}
+				if (maxdelta <  prices[i] - premin) {
+					maxdelta = prices[i] - premin;
+				}
+			}
+			return maxdelta;
+		}
+	}
+
+//runtime:1 ms
+//memory:57.5 MB
