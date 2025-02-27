@@ -78,58 +78,207 @@
 
 package leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class DesignATextEditor{
     public static void main(String[] args) {
         TextEditor editor = new DesignATextEditor().new TextEditor();
-        editor.addText("leetcode");
-        editor.deleteText(4);
-        editor.addText("practice");
-        editor.cursorRight(3);
-        editor.cursorLeft(8);
-        editor.deleteText(10);
-        editor.cursorLeft(2);
-        editor.cursorRight(6);
+        editor.addText("bxyackuncqzcqo");
+        log.info(editor.cursorLeft(12));
+        log.info(""+editor.deleteText(3));
+        log.info(editor.cursorLeft(5));
+        editor.addText("osdhyvqxf");
+        log.info(editor.cursorRight(10));
     }
         //leetcode submit region begin(Prohibit modification and deletion)
     class TextEditor {
 
-        private String content;
-
-        private int cursor;
+        private Node content;
 
         public TextEditor() {
-            content = "";
-            cursor = 0;
+            content = new Node("", 0);
         }
 
         public void addText(String text) {
-            content = content.substring(0, cursor) + text + content.substring(cursor);
-            cursor += text.length();
+            if (content.text.isEmpty()) {
+                content.text = text;
+                content.cursor = text.length();
+                return;
+            }
+            if (content.cursor == 0) {
+                Node pre = new Node(text, text.length());
+                if (content.pre != null) {
+                    content.pre.setNext(pre);
+                }
+                content.setPre(pre);
+                content = pre;
+                return;
+            }
+            if (content.cursor == content.text.length()) {
+                Node next = new Node(text, text.length());
+                if (content.next != null) {
+                    next.next.setPre(next);
+                }
+                content.setNext(next);
+                content = next;
+                return;
+            }
+            Node pre = new Node(content.text.substring(0, content.cursor), content.cursor);
+            Node middle = new Node(text, text.length());
+            Node next = new Node(content.text.substring(content.cursor), 0);
+            pre.setNext(middle);
+            next.setPre(middle);
+            if (content.pre != null) {
+                content.pre.setNext(pre);
+            }
+            if (content.next != null) {
+                content.next.setPre(next);
+            }
+            content = middle;
         }
+
 
         public int deleteText(int k) {
             //删除从 Max(cursor - k, 0) 到 cursor 的字符
-            int count = Math.min(cursor, k);
-            content = content.substring(0, cursor - count) + content.substring(cursor);
-            cursor -= count;
-            return count;
+            dels = 0;
+            if (content.cursor >= k) {
+                content.text = content.text.substring(0, content.cursor-k) + content.text.substring(content.cursor);
+                content.cursor = content.cursor - k;
+                return k;
+            } else {
+                if (content.pre == null) {
+                    content.text = content.text.substring(content.cursor);
+                    int d = content.cursor;
+                    content.cursor = 0;
+                    return d;
+                } else {
+                    dels += content.cursor;
+                    content.cursor = 0;
+                    Node pre = findNode(k - content.cursor, content.pre);
+                    content.setPre(pre);
+                    content = pre;
+                    return dels;
+                }
+            }
+        }
+
+        int dels = 0;
+        String lStr = "";
+
+        private Node findNode(int k, Node n) {
+            if (k < n.text.length()) {
+                dels += k;
+                n.cursor = n.text.length() - k;
+                n.text = n.text.substring(0, n.cursor);
+                return n;
+            } else {
+                dels += n.text.length();
+                if (n.pre == null) {
+                    n.text = "";
+                    n.cursor = 0;
+                    return n;
+                } else {
+                    return findNode(k - n.text.length(), n.pre);
+                }
+            }
         }
 
         public String cursorLeft(int k) {
-            int count = Math.min(cursor, k);
-            cursor -= count;
-            return content.substring(Math.max(cursor - 10, 0), cursor);
+            lStr = "";
+            if (k > content.cursor) {
+                Node n;
+                if (content.pre != null) {
+                    n = moveLeft(content.pre, k - content.cursor);
+                } else {
+                    n = content;
+                }
+                content.cursor = 0;
+                content = n;
+            } else {
+                content.cursor -= k;
+            }
+            return strleft(content, 10);
         }
 
         public String cursorRight(int k) {
-            cursor = Math.min(cursor + k, content.length());
-            return content.substring(Math.max(cursor - 10, 0), cursor);
+            lStr = "";
+            if ((k + content.cursor) > content.text.length()) {
+                Node n;
+                if (content.next != null) {
+                    n = moveRight(content.next, k - (content.text.length() - content.cursor));
+                } else {
+                    n = content;
+                }
+                content.cursor = content.text.length();
+                content = n;
+            }
+            return strleft(content, 10);
         }
+
+            private String strleft(Node n, int k) {
+            if (n == null) {
+                return lStr;
+            } else if (k <= n.cursor) {
+                lStr = n.text.substring(n.cursor - k, k) + lStr;
+                return lStr;
+            } else {
+                lStr = (n.text.length() == n.cursor ? n.text : n.text.substring(0, n.cursor)) + lStr;
+                return strleft(n.pre, k - n.cursor);
+            }
+        }
+
+        private Node moveLeft(Node n, int k) {
+            if (k > n.text.length()) {
+                n.cursor = 0;
+                if (n.pre == null) {
+                    return n;
+                } else {
+                    return moveLeft(n.pre, k - n.text.length());
+                }
+            } else {
+                n.cursor = n.text.length() - k;
+                return n;
+            }
+        }
+
+        private Node moveRight(Node n, int k) {
+            if (k > n.text.length()) {
+                n.cursor = n.text.length();
+                if (n.next == null) {
+                    return n;
+                } else {
+                    return moveRight(n.next, k - n.text.length());
+                }
+            } else {
+                n.cursor = k;
+                return n;
+            }
+        }
+
+
+        class Node {
+            String text;
+            int cursor;
+            Node pre;
+            Node next;
+
+            public Node(String text, int cursor) {
+                this.text = text;
+                this.cursor = cursor;
+            }
+
+            public void setPre(Node pre) {
+                pre.next = this;
+                this.pre = pre;
+            }
+
+            public void setNext(Node next) {
+                next.pre = this;
+                this.next = next;
+            }
+        }
+
     }
 
 /**
