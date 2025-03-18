@@ -70,12 +70,12 @@ class Solution {
         for (int i = 0; i < len; i++) {
             int left_top = nums[i][i];
             int right_top = nums[i][len-i-1];
-            int left_bottom = nums[len-i-1][i];
-            int right_bottom = nums[len-i-1][len-i-1];
+//            int left_bottom = nums[len-i-1][i];
+//            int right_bottom = nums[len-i-1][len-i-1];
             if (left_top > max && zhishu(left_top)) max = left_top;
             if (right_top > max && zhishu(right_top)) max = right_top;
-            if (left_bottom > max && zhishu(left_bottom)) max = left_bottom;
-            if (right_bottom > max && zhishu(right_bottom)) max = right_bottom;
+//            if (left_bottom > max && zhishu(left_bottom)) max = left_bottom;
+//            if (right_bottom > max && zhishu(right_bottom)) max = right_bottom;
         }
         return max;
     }
