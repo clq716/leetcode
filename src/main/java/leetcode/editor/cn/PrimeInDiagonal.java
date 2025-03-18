@@ -67,6 +67,7 @@ class Solution {
     public int diagonalPrime(int[][] nums) {
         int len = nums.length;
         int max = 0;
+        //优化一: 底部向上重复遍历了，可以去除
         for (int i = 0; i < len; i++) {
             int left_top = nums[i][i];
             int right_top = nums[i][len-i-1];
@@ -80,11 +81,11 @@ class Solution {
         return max;
     }
     private boolean zhishu(int num) {
-        if (num < 2) return false;
-        for (int i = 2; i < num/2; i++) {
+        //优化二: 判断质数从 [2, 根号N] 就可以
+        for (int i = 2; i * i <= num; i++) {
             if (num % i == 0) return false;
         }
-        return true;
+        return num > 1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
