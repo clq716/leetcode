@@ -65,59 +65,89 @@ public class ReplaceTheSubstringForBalancedString{
         Solution solution = new ReplaceTheSubstringForBalancedString().new Solution();
         //	测试结果:4
         //	期望结果:5
-        solution.balancedString("WWWEQRQEWWQQQWQQQWEWEEWRRRRRWWQE");
+         solution.balancedString("WWWEQRQEWWQQQWQQQWEWEEWRRRRRWWQE");
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * 这个题耗费了3个小时，非常多心神
+     * 其实是要在滑动窗口的时候同时判断多个节点的状态
+     * 我的思路没问题，但是一直找取巧的方式其实试了很多
+     * 我的思路：找出大于平均数的若干字母 A(N)
+     * 从左到右枚举，如果 字母N出现的数量大于 (N出现总数量-平均数)，
+     * 判断是否对于所有 A(N) 均满足 N出现的数量大于 (N出现总数量-平均数)，则说明其长度 right−left+1 满足条件，更新答案的最小值，
+     *
+     * 灵神思路：设子串的左右端点为 left 和 right，
+     * 枚举 right，如果子串外的任意字符的出现次数都不超过 m，
+     * 则说明从 left 到 right 的这段子串可以是待替换子串，用其长度 right−left+1 更新答案的最小值，并向右移动 left，缩小子串长度。
+     *
+     */
     public int balancedString(String s) {
         char[] chs = s.toCharArray();
-        int n = chs.length, ans = n;
-        int targetLen = n / 4;
-        int[] qwer = new int[4];
-        for (char ch : chs) qwer[idx(ch)]++;
-        if (qwer[0] == qwer[1] && qwer[2] == qwer[3]) return 0;
-        boolean[] find = new boolean[4];
-        for (int i = 0; i < 4; i++) {
-            qwer[i] = qwer[i] - targetLen;
-            find[i] = qwer[i] > 0;
-        }
-        int[] cnt = new int[4];
-        for (int l = 0, r = 0; r < n; r++) {
-            int rid = idx(chs[r]);
-            if (!find[rid]) continue;
-            cnt[rid]++;
-            while (cnt[rid] >= qwer[rid]) {
-                int lid =  idx(chs[l]);
-                if (!find[lid]) {
-                    l++;
-                    continue;
-                }
-                if (judge(find, cnt, qwer)) {
-                    cnt[lid]--;
-                    ans = Math.min(ans, r-l+1);
-                    l++;
-                } else {
-                    break;
-                }
+        int ans = chs.length;
+        int avg = ans/4;
+        int[] cnt = new int['X'];
+        for (char ch : chs) cnt[ch]++;
+        if (cnt['Q']==cnt['W']&&cnt['W']==cnt['E']&&cnt['E']==cnt['R']) return 0;
+        for (int l = 0, r = 0; r < chs.length; r++) {
+            cnt[chs[r]]--;
+            while (cnt['Q']<=avg&&cnt['W']<=avg&&cnt['E']<=avg&&cnt['R']<=avg) {
+                ans =Math.min(ans, r-l+1);
+                cnt[chs[l++]]++;
             }
         }
         return ans;
     }
 
-    private boolean judge(boolean[] find, int[] cnt, int[] qwer) {
-        for (int i = 0; i < 4; i++) if (find[i] && cnt[i] < qwer[i]) return false;
-        return true;
-    }
-
-    private int idx(char ch) {
-        switch (ch) {
-            case 'Q': return 0;
-            case 'W': return 1;
-            case 'E': return 2;
-            case 'R': return 3;
-        }
-        return 0;
-    }
+//    public int balancedString(String s) {
+//        char[] chs = s.toCharArray();
+//        int n = chs.length, ans = n;
+//        int targetLen = n / 4;
+//        int[] qwer = new int[4];
+//        for (char ch : chs) qwer[idx(ch)]++;
+//        if (qwer[0] == qwer[1] && qwer[2] == qwer[3]) return 0;
+//        boolean[] find = new boolean[4];
+//        for (int i = 0; i < 4; i++) {
+//            qwer[i] = qwer[i] - targetLen;
+//            find[i] = qwer[i] > 0;
+//        }
+//        int[] cnt = new int[4];
+//        for (int l = 0, r = 0; r < n; r++) {
+//            int rid = idx(chs[r]);
+//            if (!find[rid]) continue;
+//            cnt[rid]++;
+//            while (cnt[rid] >= qwer[rid]) {
+//                int lid =  idx(chs[l]);
+//                if (!find[lid]) {
+//                    l++;
+//                    continue;
+//                }
+//                if (judge(find, cnt, qwer)) {
+//                    cnt[lid]--;
+//                    ans = Math.min(ans, r-l+1);
+//                    l++;
+//                } else {
+//                    break;
+//                }
+//            }
+//        }
+//        return ans;
+//    }
+//
+//    private boolean judge(boolean[] find, int[] cnt, int[] qwer) {
+//        for (int i = 0; i < 4; i++) if (find[i] && cnt[i] < qwer[i]) return false;
+//        return true;
+//    }
+//
+//    private int idx(char ch) {
+//        switch (ch) {
+//            case 'Q': return 0;
+//            case 'W': return 1;
+//            case 'E': return 2;
+//            case 'R': return 3;
+//        }
+//        return 0;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
