@@ -9,3 +9,4 @@ Personal Practice Code
 3. [2824]统计和小于目标的下标对数目[CountPairsWhoseSumIsLessThanTarget.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2FCountPairsWhoseSumIsLessThanTarget.java)
 4. [16]最接近的三数之和[_0016_ThreeSumClosest.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0016_ThreeSumClosest.java)
 5. [18]四数之和[_0018_FourSum.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0018_FourSum.java)
+6. [611]有效三角形的个数[_0611_ValidTriangleNumber.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0611_ValidTriangleNumber.java)
