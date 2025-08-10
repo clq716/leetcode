@@ -59,7 +59,7 @@ public class _2411_SmallestSubarraysWithMaximumBitwiseOr{
         //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] smallestSubarrays(int[] nums) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
