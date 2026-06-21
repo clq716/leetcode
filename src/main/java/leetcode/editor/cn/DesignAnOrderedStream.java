@@ -52,20 +52,18 @@
 
 package leetcode.editor.cn;
 
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-@Slf4j
 public class DesignAnOrderedStream{
     public static void main(String[] args) {
         OrderedStream orderedStream = new OrderedStream(5);
-        log.info(""+orderedStream.insert(3, "ccccc"));
-        log.info(""+orderedStream.insert(1, "aaaaa"));
-        log.info(""+orderedStream.insert(2, "bbbbb"));
-        log.info(""+orderedStream.insert(5, "eeeee"));
-        log.info(""+orderedStream.insert(4, "ddddd"));
+        System.out.println(""+orderedStream.insert(3, "ccccc"));
+        System.out.println(""+orderedStream.insert(1, "aaaaa"));
+        System.out.println(""+orderedStream.insert(2, "bbbbb"));
+        System.out.println(""+orderedStream.insert(5, "eeeee"));
+        System.out.println(""+orderedStream.insert(4, "ddddd"));
     }
 //leetcode submit region begin(Prohibit modification and deletion)
  static class OrderedStream {

@@ -47,18 +47,16 @@
 
 package leetcode.editor.cn;
 
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-@Slf4j
 public class TwoSum{
     public static void main(String[] args) {
         Solution solution = new TwoSum().new Solution();
         int[] i = solution.twoSum(new int[]{3,2,7,5}, 9);
-        log.info(Arrays.toString(i));
+        System.out.println(Arrays.toString(i));
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

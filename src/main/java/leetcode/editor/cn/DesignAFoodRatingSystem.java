@@ -68,23 +68,21 @@
 
 package leetcode.editor.cn;
 
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
 
-@Slf4j
 public class DesignAFoodRatingSystem{
     public static void main(String[] args) {
         FoodRatings solution = new DesignAFoodRatingSystem().new FoodRatings(
                 new String[]{"kimchi","miso","sushi","moussaka","ramen","bulgogi"},
                 new String[]{"korean","japanese","japanese","greek","japanese","korean"},
                 new int[]{9,12,8,15,14,7});
-        log.info(solution.highestRated("korean"));
-        log.info(solution.highestRated("japanese"));
+        System.out.println(solution.highestRated("korean"));
+        System.out.println(solution.highestRated("japanese"));
         solution.changeRating("sushi", 16);
-        log.info(solution.highestRated("japanese"));
+        System.out.println(solution.highestRated("japanese"));
         solution.changeRating("ramen", 16);
-        log.info(solution.highestRated("japanese"));
+        System.out.println(solution.highestRated("japanese"));
 
     }
 //leetcode submit region begin(Prohibit modification and deletion)

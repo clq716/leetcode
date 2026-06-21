@@ -78,18 +78,16 @@
 
 package leetcode.editor.cn;
 
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class DesignATextEditor{
     public static void main(String[] args) {
         TextEditor editor = new DesignATextEditor().new TextEditor();
         editor.addText("bxyackuncqzcqo");
-        log.info(editor.cursorLeft(12));
-        log.info(""+editor.deleteText(3));
-        log.info(editor.cursorLeft(5));
+        System.out.println(editor.cursorLeft(12));
+        System.out.println(""+editor.deleteText(3));
+        System.out.println(editor.cursorLeft(5));
         editor.addText("osdhyvqxf");
-        log.info(editor.cursorRight(10));
+        System.out.println(editor.cursorRight(10));
     }
         //leetcode submit region begin(Prohibit modification and deletion)
     class TextEditor {

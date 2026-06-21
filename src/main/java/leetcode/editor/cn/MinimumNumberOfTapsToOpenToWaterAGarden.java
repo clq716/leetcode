@@ -49,16 +49,14 @@
 
 package leetcode.editor.cn;
 
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class MinimumNumberOfTapsToOpenToWaterAGarden{
     public static void main(String[] args) {
         Solution solution = new MinimumNumberOfTapsToOpenToWaterAGarden().new Solution();
         int result = solution.minTaps(7, new int[]{1,2,1,0,2,1,0,1});   //3
 //        int result = solution.minTaps(5, new int[]{3,4,1,1,0,0});   //1
 //        int result = solution.minTaps(9, new int[]{0,5,0,3,3,3,1,4,0,4});   //2
-        log.info(""+result);
+        System.out.println(""+result);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)

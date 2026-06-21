@@ -44,7 +44,6 @@
 package leetcode.editor.cn;
 
 
-@Springboot
 public class _3100_WaterBottlesIi{
     public static void main(String[] args) {
         Solution solution = new _3100_WaterBottlesIi().new Solution();
