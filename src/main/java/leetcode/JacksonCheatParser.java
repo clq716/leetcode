@@ -44,7 +44,32 @@ public class JacksonCheatParser {
 			return "LastState[value=" + getValue() + ", realAddress=" + realAddress + "]";
 		}
 	}
-
+	class Solution {
+		public long countMajoritySubarrays(int[] nums, int target) {
+			long result = 0;
+			int sum = 0, fi = 0, len = nums.length;
+			int[] cnt = new int[len+1];
+			cnt[0]=1;
+			for(int i = 0; i<len;i++) {
+				if(nums[i] == target) {
+					nums[i] = 0;
+					fi += sum < 0 ? nums[-sum-1] : cnt[sum];
+					sum++;
+				} else {
+					nums[i] = 0;
+					sum--;
+					fi -= sum < 0? nums[-sum-1]:cnt[sum];
+				}
+				result += fi;
+				if (sum < 0) {
+					nums[-sum-1]++;
+				} else {
+					cnt[sum]++;
+				}
+			}
+			return result;
+		}
+	}
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	public static class CheatEntry {
 		@JacksonXmlProperty(localName = "ID")
