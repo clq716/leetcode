@@ -1,11 +1,11 @@
 package hot100.leetcode.editor.cn;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import static utils.Printer.print;
 
 /**
- * 2026-07-14 16:06:43
- * RedmiBook, Fedora
+ * 2026-07-21 22:25:32
+ * Lenovo, Win11
  */
 public class $_0001_两数之和 {
 
@@ -14,10 +14,12 @@ public class $_0001_两数之和 {
         public int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
-                if (map.containsKey(nums[i])) {
-                    return new int[]{map.get(nums[i]), i};
+                Integer ans = map.get(nums[i]);
+                if (ans == null) {
+                    map.put(target - nums[i], i);
+                } else {
+                    return new int[]{ans, i};
                 }
-                map.put(target - nums[i], i);
             }
             return null;
         }
@@ -28,6 +30,6 @@ public class $_0001_两数之和 {
     static void main() {
         Solution solution = new $_0001_两数之和().new Solution();
         // put your test code here
-        
+		print("[0, 1] == " + Arrays.toString(solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
     }
 }
