@@ -1,0 +1,284 @@
+编号,标题,难度,最后提交时间,提交次数,URL
+3996,偶数次骑士移动,EASY,2026-07-19 11:13:04,1,https://leetcode.cn/problems/even-number-of-knight-moves/
+3997,统计二叉树中支配节点的数量,MEDIUM,2026-07-19 11:01:54,2,https://leetcode.cn/problems/count-dominant-nodes-in-a-binary-tree/
+3992,重新排列字符串以避免字符对,EASY,2026-07-18 22:48:02,1,https://leetcode.cn/problems/rearrange-string-to-avoid-character-pair/
+3993,交替数列的最大元素,MEDIUM,2026-07-18 22:43:24,1,https://leetcode.cn/problems/maximum-value-of-an-alternating-sequence/
+1979,找出数组的最大公约数,EASY,2026-07-18 13:21:27,1,https://leetcode.cn/problems/find-greatest-common-divisor-of-array/
+3867,数对的最大公约数之和,MEDIUM,2026-07-16 20:23:19,1,https://leetcode.cn/problems/sum-of-gcd-of-formed-pairs/
+3658,奇数和与偶数和的最大公约数,EASY,2026-07-15 09:00:21,1,https://leetcode.cn/problems/gcd-of-odd-and-even-sums/
+1,两数之和,EASY,2026-07-14 16:13:56,7,https://leetcode.cn/problems/two-sum/
+1291,顺次数,MEDIUM,2026-07-13 11:12:53,1,https://leetcode.cn/problems/sequential-digits/
+3986,统计起止时间经过的秒数,EASY,2026-07-12 12:02:24,2,https://leetcode.cn/problems/number-of-elapsed-seconds-between-two-times/
+3987,处理所有元素的成本,MEDIUM,2026-07-12 11:56:18,17,https://leetcode.cn/problems/minimum-total-cost-to-process-all-elements/
+3532,针对图的路径存在性查询 I,MEDIUM,2026-07-09 11:24:34,3,https://leetcode.cn/problems/path-existence-queries-in-a-graph-i/
+3756,连接非零数字并乘以其数字和 II,MEDIUM,2026-07-08 14:50:40,2,https://leetcode.cn/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/
+3754,连接非零数字并乘以其数字和 I,EASY,2026-07-07 10:29:10,1,https://leetcode.cn/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/
+1288,删除被覆盖区间,MEDIUM,2026-07-06 18:45:11,5,https://leetcode.cn/problems/remove-covered-intervals/
+2812,找出最安全路径,MEDIUM,2026-07-01 20:49:06,1,https://leetcode.cn/problems/find-the-safest-path-in-a-grid/
+1358,包含所有三种字符的子字符串数目,MEDIUM,2026-06-30 11:42:51,2,https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/
+1967,作为子字符串出现在单词中的字符串数目,EASY,2026-06-29 11:13:48,1,https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/
+3739,统计主要元素子数组数目 II,HARD,2026-06-26 17:00:13,15,https://leetcode.cn/problems/count-subarrays-with-majority-element-ii/
+3737,统计主要元素子数组数目 I,MEDIUM,2026-06-25 10:19:23,1,https://leetcode.cn/problems/count-subarrays-with-majority-element-i/
+1189,“气球” 的最大数量,EASY,2026-06-22 22:30:40,1,https://leetcode.cn/problems/maximum-number-of-balloons/
+1732,找到最高海拔,EASY,2026-06-19 23:15:03,1,https://leetcode.cn/problems/find-the-highest-altitude/
+48,旋转图像,MEDIUM,2026-05-04 22:05:18,1,https://leetcode.cn/problems/rotate-image/
+796,旋转字符串,EASY,2026-05-03 23:16:24,1,https://leetcode.cn/problems/rotate-string/
+788,旋转数字,MEDIUM,2026-05-02 22:20:19,1,https://leetcode.cn/problems/rotated-digits/
+961,在长度 2N 的数组中找出重复 N 次的元素,EASY,2026-01-02 23:12:04,2,https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/
+66,加一,EASY,2026-01-01 23:02:25,2,https://leetcode.cn/problems/plus-one/
+3228,将 1 移动到末尾的最大操作次数,MEDIUM,2025-11-13 23:53:24,1,https://leetcode.cn/problems/maximum-number-of-operations-to-move-ones-to-the-end/
+2654,使数组所有元素变成 1 的最少操作次数,MEDIUM,2025-11-12 23:12:59,1,https://leetcode.cn/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/
+474,一和零,MEDIUM,2025-11-11 22:41:00,1,https://leetcode.cn/problems/ones-and-zeroes/
+3542,将所有元素变为 0 的最少操作次数,MEDIUM,2025-11-10 23:01:53,1,https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/
+2169,得到 0 的操作数,EASY,2025-11-09 23:27:46,1,https://leetcode.cn/problems/count-operations-to-obtain-zero/
+1611,使整数变为 0 的最少操作次数,HARD,2025-11-08 23:25:34,1,https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/
+3318,计算子数组的 x-sum I,EASY,2025-11-04 23:48:15,1,https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-i/
+1578,使绳子变成彩色的最短时间,MEDIUM,2025-11-03 23:53:32,1,https://leetcode.cn/problems/minimum-time-to-make-rope-colorful/
+206,反转链表,EASY,2025-11-03 23:14:45,1,https://leetcode.cn/problems/reverse-linked-list/
+2257,统计网格图中没有被保卫的格子数,MEDIUM,2025-11-02 22:29:44,1,https://leetcode.cn/problems/count-unguarded-cells-in-the-grid/
+3217,从链表中移除在数组中存在的节点,MEDIUM,2025-11-01 23:25:43,3,https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/
+3289,数字小镇中的捣蛋鬼,EASY,2025-10-31 23:23:00,1,https://leetcode.cn/problems/the-two-sneaky-numbers-of-digitville/
+1526,形成目标数组的子数组最少增加次数,HARD,2025-10-30 23:49:12,1,https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+1625,执行操作后字典序最小的字符串,MEDIUM,2025-10-29 23:32:11,2,https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/
+3346,执行操作后元素的最高频率 I,MEDIUM,2025-10-29 23:28:29,1,https://leetcode.cn/problems/maximum-frequency-of-an-element-after-performing-operations-i/
+3370,仅含置位位的最小整数,EASY,2025-10-29 23:26:56,1,https://leetcode.cn/problems/smallest-number-with-all-set-bits/
+3354,使数组元素等于零,EASY,2025-10-28 23:50:40,1,https://leetcode.cn/problems/make-array-elements-equal-to-zero/
+2125,银行中的激光束数量,MEDIUM,2025-10-27 23:19:24,1,https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/
+2043,简易银行系统,MEDIUM,2025-10-26 23:00:38,1,https://leetcode.cn/problems/simple-bank-system/
+1716,计算力扣银行的钱,EASY,2025-10-25 22:39:42,1,https://leetcode.cn/problems/calculate-money-in-leetcode-bank/
+2048,下一个更大的数值平衡数,MEDIUM,2025-10-24 23:48:39,1,https://leetcode.cn/problems/next-greater-numerically-balanced-number/
+151,反转字符串中的单词,MEDIUM,2025-10-24 23:47:15,1,https://leetcode.cn/problems/reverse-words-in-a-string/
+3461,判断操作后字符串中的数字是否相等 I,EASY,2025-10-23 23:46:51,2,https://leetcode.cn/problems/check-if-digits-are-equal-in-string-after-operations-i/
+1094,拼车,MEDIUM,2025-10-23 23:32:44,3,https://leetcode.cn/problems/car-pooling/
+1109,航班预订统计,MEDIUM,2025-10-23 23:21:09,1,https://leetcode.cn/problems/corporate-flight-bookings/
+370,区间加法,MEDIUM,2025-10-23 23:18:34,1,https://leetcode.cn/problems/range-addition/
+3347,执行操作后元素的最高频率 II,HARD,2025-10-23 07:23:53,2,https://leetcode.cn/problems/maximum-frequency-of-an-element-after-performing-operations-ii/
+525,连续数组,MEDIUM,2025-10-23 07:22:13,2,https://leetcode.cn/problems/contiguous-array/
+238,除了自身以外数组的乘积,MEDIUM,2025-10-23 06:26:42,2,https://leetcode.cn/problems/product-of-array-except-self/
+724,寻找数组的中心下标,EASY,2025-10-23 06:08:27,2,https://leetcode.cn/problems/find-pivot-index/
+303,区域和检索 - 数组不可变,EASY,2025-10-23 05:54:56,1,https://leetcode.cn/problems/range-sum-query-immutable/
+707,设计链表,MEDIUM,2025-10-21 23:55:01,4,https://leetcode.cn/problems/design-linked-list/
+2011,执行操作后的变量值,EASY,2025-10-20 23:46:13,1,https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/
+3350,检测相邻递增子数组 II,MEDIUM,2025-10-15 19:14:06,1,https://leetcode.cn/problems/adjacent-increasing-subarrays-detection-ii/
+3349,检测相邻递增子数组 I,EASY,2025-10-14 23:41:34,5,https://leetcode.cn/problems/adjacent-increasing-subarrays-detection-i/
+2273,移除字母异位词后的结果数组,EASY,2025-10-13 23:44:33,1,https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/
+3539,魔法序列的数组乘积之和,HARD,2025-10-12 23:33:14,1,https://leetcode.cn/problems/find-sum-of-array-product-of-magical-sequences/
+3186,施咒的最大总伤害,MEDIUM,2025-10-11 23:14:43,1,https://leetcode.cn/problems/maximum-total-damage-with-spell-casting/
+3147,从魔法师身上吸取的最大能量,MEDIUM,2025-10-10 23:36:11,1,https://leetcode.cn/problems/taking-maximum-energy-from-the-mystic-dungeon/
+3494,酿造药水需要的最少总时间,MEDIUM,2025-10-09 22:14:38,1,https://leetcode.cn/problems/find-the-minimum-amount-of-time-to-brew-potions/
+2300,咒语和药水的成功对数,MEDIUM,2025-10-08 22:35:27,1,https://leetcode.cn/problems/successful-pairs-of-spells-and-potions/
+1488,避免洪水泛滥,MEDIUM,2025-10-07 22:54:16,1,https://leetcode.cn/problems/avoid-flood-in-the-city/
+417,太平洋大西洋水流问题,MEDIUM,2025-10-05 22:46:12,1,https://leetcode.cn/problems/pacific-atlantic-water-flow/
+407,接雨水 II,HARD,2025-10-03 23:21:39,1,https://leetcode.cn/problems/trapping-rain-water-ii/
+3100,换水问题 II,MEDIUM,2025-10-02 22:11:13,1,https://leetcode.cn/problems/water-bottles-ii/
+1518,换水问题,EASY,2025-10-01 22:05:33,3,https://leetcode.cn/problems/water-bottles/
+2221,数组的三角和,MEDIUM,2025-09-30 23:08:38,1,https://leetcode.cn/problems/find-triangular-sum-of-an-array/
+1039,多边形三角剖分的最低得分,MEDIUM,2025-09-29 23:05:44,1,https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/
+611,有效三角形的个数,MEDIUM,2025-09-28 23:42:01,4,https://leetcode.cn/problems/valid-triangle-number/
+812,最大三角形面积,EASY,2025-09-28 23:41:07,1,https://leetcode.cn/problems/largest-triangle-area/
+976,三角形的最大周长,EASY,2025-09-28 23:38:52,1,https://leetcode.cn/problems/largest-perimeter-triangle/
+120,三角形最小路径和,MEDIUM,2025-09-25 18:54:25,1,https://leetcode.cn/problems/triangle/
+166,分数到小数,MEDIUM,2025-09-24 23:47:52,1,https://leetcode.cn/problems/fraction-to-recurring-decimal/
+165,比较版本号,MEDIUM,2025-09-23 23:38:27,1,https://leetcode.cn/problems/compare-version-numbers/
+3005,最大频率元素计数,EASY,2025-09-22 23:03:22,2,https://leetcode.cn/problems/count-elements-with-maximum-frequency/
+1912,设计电影租借系统,HARD,2025-09-21 22:39:22,1,https://leetcode.cn/problems/design-movie-rental-system/
+3508,设计路由器,MEDIUM,2025-09-20 23:21:17,1,https://leetcode.cn/problems/implement-router/
+3484,设计电子表格,MEDIUM,2025-09-19 23:33:18,7,https://leetcode.cn/problems/design-spreadsheet/
+3408,设计任务管理器,MEDIUM,2025-09-18 23:56:55,1,https://leetcode.cn/problems/design-task-manager/
+2349,设计数字容器系统,MEDIUM,2025-09-17 23:42:13,3,https://leetcode.cn/problems/design-a-number-container-system/
+2197,替换数组中的非互质数,HARD,2025-09-16 23:15:29,1,https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/
+1935,可以输入的最大单词数,EASY,2025-09-15 23:57:42,1,https://leetcode.cn/problems/maximum-number-of-words-you-can-type/
+966,元音拼写检查器,MEDIUM,2025-09-14 23:03:06,1,https://leetcode.cn/problems/vowel-spellchecker/
+3541,找到频率最高的元音和辅音,EASY,2025-09-13 23:55:19,1,https://leetcode.cn/problems/find-most-frequent-vowel-and-consonant/
+3227,字符串元音游戏,MEDIUM,2025-09-12 23:37:30,1,https://leetcode.cn/problems/vowels-game-in-a-string/
+2327,知道秘密的人数,MEDIUM,2025-09-09 23:15:06,1,https://leetcode.cn/problems/number-of-people-aware-of-a-secret/
+1317,将整数转换为两个无零整数的和,EASY,2025-09-08 20:03:35,3,https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+1304,和为零的 N 个不同整数,EASY,2025-09-07 20:30:24,1,https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero/
+3495,使数组元素都变为零的最少操作次数,HARD,2025-09-06 22:11:25,8,https://leetcode.cn/problems/minimum-operations-to-make-array-elements-zero/
+2749,得到整数零需要执行的最少操作数,MEDIUM,2025-09-05 21:12:55,5,https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero/
+3027,人员站位的方案数 II,HARD,2025-09-04 21:48:29,2,https://leetcode.cn/problems/find-the-number-of-ways-to-place-people-ii/
+3516,找到最近的人,EASY,2025-09-04 21:38:58,1,https://leetcode.cn/problems/find-closest-person/
+3025,人员站位的方案数 I,MEDIUM,2025-09-02 23:21:58,1,https://leetcode.cn/problems/find-the-number-of-ways-to-place-people-i/
+1792,最大平均通过率,MEDIUM,2025-09-01 22:46:28,1,https://leetcode.cn/problems/maximum-average-pass-ratio/
+36,有效的数独,MEDIUM,2025-08-31 23:12:44,1,https://leetcode.cn/problems/valid-sudoku/
+3021,Alice 和 Bob 玩鲜花游戏,MEDIUM,2025-08-29 23:54:02,1,https://leetcode.cn/problems/alice-and-bob-playing-flower-game/
+3446,按对角线进行矩阵排序,MEDIUM,2025-08-28 22:26:28,1,https://leetcode.cn/problems/sort-matrix-by-diagonals/
+498,对角线遍历,MEDIUM,2025-08-27 21:41:17,6,https://leetcode.cn/problems/diagonal-traverse/
+3459,最长 V 形对角线段的长度,HARD,2025-08-27 21:29:19,1,https://leetcode.cn/problems/length-of-longest-v-shaped-diagonal-segment/
+3000,对角线最长的矩形的面积,EASY,2025-08-26 22:00:46,2,https://leetcode.cn/problems/maximum-area-of-longest-diagonal-rectangle/
+1493,删掉一个元素以后全为 1 的最长子数组,MEDIUM,2025-08-24 23:02:01,4,https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/
+3197,包含所有 1 的最小矩形面积 II,HARD,2025-08-23 23:16:28,1,https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-ii/
+3195,包含所有 1 的最小矩形面积 I,MEDIUM,2025-08-22 22:53:03,1,https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/
+1504,统计全 1 子矩形,MEDIUM,2025-08-21 22:52:35,1,https://leetcode.cn/problems/count-submatrices-with-all-ones/
+1277,统计全为 1 的正方形子矩阵,MEDIUM,2025-08-20 23:12:32,1,https://leetcode.cn/problems/count-square-submatrices-with-all-ones/
+2348,全 0 子数组的数目,MEDIUM,2025-08-19 23:40:53,1,https://leetcode.cn/problems/number-of-zero-filled-subarrays/
+679,24 点游戏,HARD,2025-08-18 21:23:21,1,https://leetcode.cn/problems/24-game/
+837,新 21 点,MEDIUM,2025-08-17 23:01:52,3,https://leetcode.cn/problems/new-21-game/
+3649,完美对的数目,MEDIUM,2025-08-16 23:16:15,1,https://leetcode.cn/problems/number-of-perfect-pairs/
+3648,覆盖网格的最少传感器数目,MEDIUM,2025-08-16 22:35:52,1,https://leetcode.cn/problems/minimum-sensors-to-cover-grid/
+1323,6 和 9 组成的最大数字,EASY,2025-08-16 00:13:49,1,https://leetcode.cn/problems/maximum-69-number/
+342,4的幂,EASY,2025-08-15 11:15:18,3,https://leetcode.cn/problems/power-of-four/
+1780,判断一个数字是否可以表示成三的幂的和,MEDIUM,2025-08-14 23:34:10,1,https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/
+326,3 的幂,EASY,2025-08-13 23:26:06,3,https://leetcode.cn/problems/power-of-three/
+2787,将一个数字表示成幂的和的方案数,MEDIUM,2025-08-12 22:50:57,1,https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers/
+2438,二的幂数组中查询范围内的乘积,MEDIUM,2025-08-11 23:46:24,1,https://leetcode.cn/problems/range-product-queries-of-powers/
+869,重新排序得到 2 的幂,MEDIUM,2025-08-10 23:43:07,7,https://leetcode.cn/problems/reordered-power-of-2/
+231,2 的幂,EASY,2025-08-09 21:55:43,3,https://leetcode.cn/problems/power-of-two/
+808,分汤,MEDIUM,2025-08-08 13:48:13,7,https://leetcode.cn/problems/soup-servings/
+3363,最多可收集的水果数目,HARD,2025-08-07 23:35:21,1,https://leetcode.cn/problems/find-the-maximum-number-of-fruits-collected/
+3479,水果成篮 III,MEDIUM,2025-08-06 23:54:51,2,https://leetcode.cn/problems/fruits-into-baskets-iii/
+3477,水果成篮 II,EASY,2025-08-05 22:50:52,2,https://leetcode.cn/problems/fruits-into-baskets-ii/
+904,水果成篮,MEDIUM,2025-08-04 23:36:48,3,https://leetcode.cn/problems/fruit-into-baskets/
+2106,摘水果,HARD,2025-08-03 22:41:42,1,https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/
+3638,平衡装运的最大数量,MEDIUM,2025-08-03 11:50:39,2,https://leetcode.cn/problems/maximum-balanced-shipments/
+3637,三段式数组 I,EASY,2025-08-03 11:45:22,1,https://leetcode.cn/problems/trionic-array-i/
+3639,变为活跃状态的最小时间,MEDIUM,2025-08-03 11:32:51,2,https://leetcode.cn/problems/minimum-time-to-activate-string/
+2561,重排水果,HARD,2025-08-02 23:46:55,1,https://leetcode.cn/problems/rearranging-fruits/
+3635,最早完成陆地和水上游乐设施的时间 II,MEDIUM,2025-08-02 23:18:58,2,https://leetcode.cn/problems/earliest-finish-time-for-land-and-water-rides-ii/
+3633,最早完成陆地和水上游乐设施的时间 I,EASY,2025-08-02 23:06:23,3,https://leetcode.cn/problems/earliest-finish-time-for-land-and-water-rides-i/
+3634,使数组平衡的最少移除数目,MEDIUM,2025-08-02 22:52:44,2,https://leetcode.cn/problems/minimum-removals-to-balance-array/
+118,杨辉三角,EASY,2025-08-01 23:25:49,1,https://leetcode.cn/problems/pascals-triangle/
+2683,相邻值的按位异或,MEDIUM,2025-07-31 23:17:13,5,https://leetcode.cn/problems/neighboring-bitwise-xor/
+2419,按位与最大的最长子数组,MEDIUM,2025-07-30 23:02:44,1,https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and/
+2411,按位或最大的最小子数组长度,MEDIUM,2025-07-29 23:42:13,1,https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/
+2044,统计按位或能得到最大值的子集数目,MEDIUM,2025-07-28 23:46:06,1,https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/
+2210,统计数组中峰和谷的数量,EASY,2025-07-27 22:01:55,1,https://leetcode.cn/problems/count-hills-and-valleys-in-an-array/
+3627,中位数之和的最大值,MEDIUM,2025-07-27 10:41:47,1,https://leetcode.cn/problems/maximum-median-sum-of-subsequences-of-size-3/
+3480,删除一个冲突对后最大子数组数目,HARD,2025-07-26 21:33:27,1,https://leetcode.cn/problems/maximize-subarrays-after-removing-one-conflicting-pair/
+3487,删除后的最大子数组元素和,EASY,2025-07-25 23:27:17,3,https://leetcode.cn/problems/maximum-unique-subarray-sum-after-deletion/
+2322,从树中删除边的最小分数,HARD,2025-07-24 23:23:31,1,https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree/
+1717,删除子字符串的最大得分,MEDIUM,2025-07-23 23:39:46,1,https://leetcode.cn/problems/maximum-score-from-removing-substrings/
+1695,删除子数组的最大得分,MEDIUM,2025-07-22 23:15:06,4,https://leetcode.cn/problems/maximum-erasure-value/
+1957,删除字符使字符串变好,EASY,2025-07-21 22:46:09,1,https://leetcode.cn/problems/delete-characters-to-make-fancy-string/
+1948,删除系统中的重复文件夹,HARD,2025-07-20 21:58:48,1,https://leetcode.cn/problems/delete-duplicate-folders-in-system/
+3623,统计梯形的数目 I,MEDIUM,2025-07-20 11:21:52,6,https://leetcode.cn/problems/count-number-of-trapezoids-i/
+3622,判断整除性,EASY,2025-07-20 10:34:44,2,https://leetcode.cn/problems/check-divisibility-by-digit-sum-and-product/
+3618,根据质数下标分割数组,MEDIUM,2025-07-19 23:28:22,3,https://leetcode.cn/problems/split-array-by-prime-indices/
+1233,删除子文件夹,MEDIUM,2025-07-19 21:04:56,1,https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/
+2163,删除元素后和的最小差值,HARD,2025-07-18 23:22:32,1,https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements/
+3202,找出有效子序列的最大长度 II,MEDIUM,2025-07-17 21:43:29,1,https://leetcode.cn/problems/find-the-maximum-length-of-valid-subsequence-ii/
+3201,找出有效子序列的最大长度 I,MEDIUM,2025-07-16 10:26:16,3,https://leetcode.cn/problems/find-the-maximum-length-of-valid-subsequence-i/
+3136,有效单词,EASY,2025-07-15 23:22:31,2,https://leetcode.cn/problems/valid-word/
+1290,二进制链表转整数,EASY,2025-07-14 21:31:28,4,https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/
+2410,运动员和训练师的最大匹配数,MEDIUM,2025-07-13 17:06:29,2,https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/
+3612,用特殊操作处理字符串 I,MEDIUM,2025-07-13 11:01:00,3,https://leetcode.cn/problems/process-string-with-special-operations-i/
+1900,最佳运动员的比拼回合,HARD,2025-07-12 23:19:31,1,https://leetcode.cn/problems/the-earliest-and-latest-rounds-where-players-compete/
+3169,无需开会的工作日,MEDIUM,2025-07-11 23:46:19,4,https://leetcode.cn/problems/count-days-without-meetings/
+3440,重新安排会议得到最多空余时间 II,MEDIUM,2025-07-10 23:11:01,1,https://leetcode.cn/problems/reschedule-meetings-for-maximum-free-time-ii/
+3439,重新安排会议得到最多空余时间 I,MEDIUM,2025-07-09 23:53:38,3,https://leetcode.cn/problems/reschedule-meetings-for-maximum-free-time-i/
+1751,最多可以参加的会议数目 II,HARD,2025-07-08 23:47:45,1,https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/
+1353,最多可以参加的会议数目,MEDIUM,2025-07-07 23:38:04,1,https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/
+1865,找出和为指定值的下标对,MEDIUM,2025-07-06 13:10:49,2,https://leetcode.cn/problems/finding-pairs-with-a-certain-sum/
+3606,优惠券校验器,EASY,2025-07-06 10:55:53,2,https://leetcode.cn/problems/coupon-code-validator/
+1394,找出数组中的幸运数,EASY,2025-07-05 22:51:12,1,https://leetcode.cn/problems/find-lucky-integer-in-an-array/
+3602,十六进制和三十六进制转化,EASY,2025-07-05 22:46:51,1,https://leetcode.cn/problems/hexadecimal-and-hexatrigesimal-conversion/
+3307,找出第 K 个字符 II,HARD,2025-07-04 23:10:43,3,https://leetcode.cn/problems/find-the-k-th-character-in-string-game-ii/
+3304,找出第 K 个字符 I,EASY,2025-07-03 23:24:14,1,https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i/
+3333,找到初始输入字符串 II,HARD,2025-07-02 23:36:40,1,https://leetcode.cn/problems/find-the-original-typed-string-ii/
+3330,找到初始输入字符串 I,EASY,2025-07-01 16:51:46,1,https://leetcode.cn/problems/find-the-original-typed-string-i/
+18,四数之和,MEDIUM,2025-06-30 21:41:53,2,https://leetcode.cn/problems/4sum/
+16,最接近的三数之和,MEDIUM,2025-06-30 21:10:45,1,https://leetcode.cn/problems/3sum-closest/
+594,最长和谐子序列,EASY,2025-06-30 20:26:00,1,https://leetcode.cn/problems/longest-harmonious-subsequence/
+2200,找出数组中的所有 K 近邻下标,EASY,2025-06-24 21:40:33,3,https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array/
+2294,划分数组使最大差为 K,MEDIUM,2025-06-19 22:41:44,1,https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k/
+3442,奇偶频次间的最大差值 I,EASY,2025-06-10 21:16:26,1,https://leetcode.cn/problems/maximum-difference-between-even-and-odd-frequency-i/
+2824,统计和小于目标的下标对数目,EASY,2025-05-20 21:37:48,3,https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/
+15,三数之和,MEDIUM,2025-05-20 20:45:54,1,https://leetcode.cn/problems/3sum/
+167,两数之和 II - 输入有序数组,MEDIUM,2025-05-20 20:21:23,1,https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/
+3355,零数组变换 I,MEDIUM,2025-05-20 20:11:06,2,https://leetcode.cn/problems/zero-array-transformation-i/
+3024,三角形类型,EASY,2025-05-19 21:27:39,2,https://leetcode.cn/problems/type-of-triangle/
+2900,最长相邻不相等子序列 I,EASY,2025-05-15 22:56:33,1,https://leetcode.cn/problems/longest-unequal-adjacent-groups-subsequence-i/
+2094,找出 3 位偶数,EASY,2025-05-12 21:48:39,1,https://leetcode.cn/problems/finding-3-digit-even-numbers/
+1920,基于排列构建数组,EASY,2025-05-06 20:42:39,1,https://leetcode.cn/problems/build-array-from-permutation/
+1399,统计最大组的数目,EASY,2025-04-23 22:20:42,2,https://leetcode.cn/problems/count-largest-group/
+2364,统计坏数对的数目,MEDIUM,2025-04-18 20:21:43,2,https://leetcode.cn/problems/count-number-of-bad-pairs/
+2176,统计数组中相等且可以被整除的数对,EASY,2025-04-17 23:34:35,1,https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array/
+3375,使数组的值全部为 K 的最少操作次数,EASY,2025-04-09 23:00:52,1,https://leetcode.cn/problems/minimum-operations-to-make-array-values-equal-to-k/
+3396,使数组元素互不相同所需的最少操作次数,EASY,2025-04-08 23:03:58,1,https://leetcode.cn/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/
+2874,有序三元组中的最大值 II,MEDIUM,2025-04-04 00:01:14,3,https://leetcode.cn/problems/maximum-value-of-an-ordered-triplet-ii/
+2873,有序三元组中的最大值 I,EASY,2025-04-02 23:02:12,1,https://leetcode.cn/problems/maximum-value-of-an-ordered-triplet-i/
+3502,到达每个位置的最小费用,EASY,2025-03-30 10:38:22,1,https://leetcode.cn/problems/minimum-cost-to-reach-every-position/
+3499,操作后最大活跃区段数 I,MEDIUM,2025-03-29 23:35:15,4,https://leetcode.cn/problems/maximize-active-section-with-trade-i/
+3498,字符串的反转度,EASY,2025-03-29 22:32:51,1,https://leetcode.cn/problems/reverse-degree-of-a-string/
+2716,最小化字符串长度,EASY,2025-03-28 23:53:02,2,https://leetcode.cn/problems/minimize-string-length/
+27,移除元素,EASY,2025-03-25 00:15:59,2,https://leetcode.cn/problems/remove-element/
+2255,统计是给定字符串前缀的字符串数目,EASY,2025-03-24 21:18:58,1,https://leetcode.cn/problems/count-prefixes-of-a-given-string/
+3492,船上可以装载的最大集装箱数量,EASY,2025-03-23 10:34:14,2,https://leetcode.cn/problems/maximum-containers-on-a-ship/
+2875,无限数组的最短子数组,MEDIUM,2025-03-23 00:55:49,16,https://leetcode.cn/problems/minimum-size-subarray-in-infinite-array/
+26,删除有序数组中的重复项,EASY,2025-03-23 00:02:27,1,https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+1234,替换子串得到平衡字符串,MEDIUM,2025-03-22 12:13:39,11,https://leetcode.cn/problems/replace-the-substring-for-balanced-string/
+2643,一最多的行,EASY,2025-03-22 10:01:53,1,https://leetcode.cn/problems/row-with-maximum-ones/
+2904,最短且字典序最小的美丽子字符串,MEDIUM,2025-03-21 22:49:47,3,https://leetcode.cn/problems/shortest-and-lexicographically-smallest-beautiful-string/
+209,长度最小的子数组,MEDIUM,2025-03-21 21:39:07,1,https://leetcode.cn/problems/minimum-size-subarray-sum/
+1658,将 x 减到 0 的最小操作数,MEDIUM,2025-03-21 21:18:54,7,https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/
+1004,最大连续1的个数 III,MEDIUM,2025-03-21 20:46:56,2,https://leetcode.cn/problems/max-consecutive-ones-iii/
+2024,考试的最大困扰度,MEDIUM,2025-03-21 20:37:44,4,https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/
+2958,最多 K 个重复元素的最长子数组,MEDIUM,2025-03-21 20:06:52,4,https://leetcode.cn/problems/length-of-longest-subarray-with-at-most-k-frequency/
+1208,尽可能使字符串相等,MEDIUM,2025-03-20 22:28:57,2,https://leetcode.cn/problems/get-equal-substrings-within-budget/
+3090,每个字符最多出现两次的最长子字符串,EASY,2025-03-20 21:40:23,1,https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/
+3,无重复字符的最长子串,MEDIUM,2025-03-20 21:33:39,5,https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+2107,分享 K 个糖果后独特口味的数量,MEDIUM,2025-03-20 20:38:05,5,https://leetcode.cn/problems/number-of-unique-flavors-after-sharing-k-candies/
+1151,最少交换次数来组合所有的 1,MEDIUM,2025-03-20 20:04:14,2,https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together/
+1852,每个子数组的数字种类数,MEDIUM,2025-03-20 19:55:07,1,https://leetcode.cn/problems/distinct-numbers-in-each-subarray/
+1100,长度为 K 的无重复字符子串,MEDIUM,2025-03-20 19:39:42,1,https://leetcode.cn/problems/find-k-length-substrings-with-no-repeated-characters/
+1176,健身计划评估,EASY,2025-03-20 19:31:41,1,https://leetcode.cn/problems/diet-plan-performance/
+1456,定长子串中元音的最大数目,MEDIUM,2025-03-20 18:50:20,4,https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+1652,拆炸弹,EASY,2025-03-19 23:45:40,1,https://leetcode.cn/problems/defuse-the-bomb/
+1052,爱生气的书店老板,MEDIUM,2025-03-19 22:55:49,1,https://leetcode.cn/problems/grumpy-bookstore-owner/
+1423,可获得的最大点数,MEDIUM,2025-03-19 22:36:21,2,https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards/
+2461,长度为 K 子数组中的最大和,MEDIUM,2025-03-19 22:01:22,4,https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k/
+2841,几乎唯一子数组的最大和,MEDIUM,2025-03-19 21:41:11,2,https://leetcode.cn/problems/maximum-sum-of-almost-unique-subarray/
+2379,得到 K 个黑块的最少涂色次数,EASY,2025-03-19 21:24:52,1,https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+2090,半径为 k 的子数组平均值,MEDIUM,2025-03-19 21:17:27,3,https://leetcode.cn/problems/k-radius-subarray-averages/
+2610,转换二维数组,MEDIUM,2025-03-19 20:55:11,2,https://leetcode.cn/problems/convert-an-array-into-a-2d-array-with-conditions/
+1343,大小为 K 且平均值大于等于阈值的子数组数目,MEDIUM,2025-03-18 23:26:25,2,https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+643,子数组最大平均数 I,EASY,2025-03-18 23:10:54,1,https://leetcode.cn/problems/maximum-average-subarray-i/
+852,山脉数组的峰顶索引,MEDIUM,2025-03-18 22:46:53,2,https://leetcode.cn/problems/peak-index-in-a-mountain-array/
+2586,统计范围内的元音字符串数,EASY,2025-03-18 22:36:54,1,https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/
+1422,分割字符串的最大得分,EASY,2025-03-18 22:23:51,2,https://leetcode.cn/problems/maximum-score-after-splitting-a-string/
+867,转置矩阵,EASY,2025-03-18 22:12:07,1,https://leetcode.cn/problems/transpose-matrix/
+2614,对角线上的质数,EASY,2025-03-18 22:05:43,5,https://leetcode.cn/problems/prime-in-diagonal/
+543,二叉树的直径,EASY,2025-03-18 21:03:19,2,https://leetcode.cn/problems/diameter-of-binary-tree/
+1470,重新排列数组,EASY,2025-03-18 17:10:54,1,https://leetcode.cn/problems/shuffle-the-array/
+263,丑数,EASY,2025-03-18 17:02:38,5,https://leetcode.cn/problems/ugly-number/
+1281,整数的各位积和之差,EASY,2025-03-18 16:03:33,1,https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+258,各位相加,EASY,2025-03-18 15:54:48,1,https://leetcode.cn/problems/add-digits/
+709,转换成小写字母,EASY,2025-03-18 15:48:38,2,https://leetcode.cn/problems/to-lower-case/
+1757,可回收且低脂的产品,EASY,2025-03-18 15:09:08,1,https://leetcode.cn/problems/recyclable-and-low-fat-products/
+584,寻找用户推荐人,EASY,2025-03-18 15:06:34,1,https://leetcode.cn/problems/find-customer-referee/
+1534,统计好三元组,EASY,2025-03-18 15:03:07,1,https://leetcode.cn/problems/count-good-triplets/
+3488,距离最小相等元素查询,MEDIUM,2025-03-16 12:11:40,3,https://leetcode.cn/problems/closest-equal-element-queries/
+3483,不同三位偶数的数目,EASY,2025-03-15 23:39:02,2,https://leetcode.cn/problems/unique-3-digit-even-numbers/
+3110,字符串的分数,EASY,2025-03-15 14:47:47,1,https://leetcode.cn/problems/score-of-a-string/
+3340,检查平衡字符串,EASY,2025-03-14 21:23:35,1,https://leetcode.cn/problems/check-balanced-string/
+2269,找到一个数字的 K 美丽值,EASY,2025-03-10 20:57:01,2,https://leetcode.cn/problems/find-the-k-beauty-of-a-number/
+1512,好数对的数目,EASY,2025-03-07 00:24:11,1,https://leetcode.cn/problems/number-of-good-pairs/
+1486,数组异或操作,EASY,2025-03-06 23:24:58,1,https://leetcode.cn/problems/xor-operation-in-an-array/
+2236,判断根结点是否等于子结点之和,EASY,2025-03-06 23:21:38,1,https://leetcode.cn/problems/root-equals-sum-of-children/
+2413,最小偶倍数,EASY,2025-03-06 23:17:43,2,https://leetcode.cn/problems/smallest-even-multiple/
+2469,温度转换,EASY,2025-03-06 23:09:10,1,https://leetcode.cn/problems/convert-the-temperature/
+2235,两整数相加,EASY,2025-03-06 22:58:45,1,https://leetcode.cn/problems/add-two-integers/
+3471,找出最大的几近缺失整数,EASY,2025-03-02 10:59:06,4,https://leetcode.cn/problems/find-the-largest-almost-missing-integer/
+3468,可行数组的数目,MEDIUM,2025-03-01 23:00:22,1,https://leetcode.cn/problems/find-the-number-of-copy-arrays/
+3467,将数组按照奇偶性转化,EASY,2025-03-01 22:36:45,1,https://leetcode.cn/problems/transform-array-by-parity/
+131,分割回文串,MEDIUM,2025-03-01 16:51:15,1,https://leetcode.cn/problems/palindrome-partitioning/
+2353,设计食物评分系统,MEDIUM,2025-02-28 22:54:51,2,https://leetcode.cn/problems/design-a-food-rating-system/
+266,回文排列,EASY,2025-02-26 23:18:13,2,https://leetcode.cn/problems/palindrome-permutation/
+2502,设计内存分配器,MEDIUM,2025-02-26 22:45:23,1,https://leetcode.cn/problems/design-memory-allocator/
+1472,设计浏览器历史记录,MEDIUM,2025-02-26 22:31:15,2,https://leetcode.cn/problems/design-browser-history/
+1656,设计有序流,EASY,2025-02-25 00:06:05,3,https://leetcode.cn/problems/design-an-ordered-stream/
+2595,奇偶位数,EASY,2025-02-20 23:26:06,5,https://leetcode.cn/problems/number-of-even-and-odd-bits/
+1287,有序数组中出现次数超过25%的元素,EASY,2025-02-17 21:35:05,4,https://leetcode.cn/problems/element-appearing-more-than-25-in-sorted-array/
+49,字母异位词分组,MEDIUM,2025-01-27 17:29:19,3,https://leetcode.cn/problems/group-anagrams/
+21,合并两个有序链表,EASY,2025-01-27 11:43:31,3,https://leetcode.cn/problems/merge-two-sorted-lists/
+121,买卖股票的最佳时机,EASY,2023-04-10 17:41:48,4,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
+面试题 05.02,二进制数转字符串,MEDIUM,2023-03-02 12:30:56,2,https://leetcode.cn/problems/binary-number-to-string-lcci/
+2373,矩阵中的局部最大值,EASY,2023-03-01 20:45:03,5,https://leetcode.cn/problems/largest-local-values-in-a-matrix/
+1326,灌溉花园的最少水龙头数目,HARD,2023-02-23 01:28:13,4,https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/
+20,有效的括号,EASY,2021-04-22 22:35:59,2,https://leetcode.cn/problems/valid-parentheses/
+13,罗马数字转整数,EASY,2021-04-22 00:04:01,3,https://leetcode.cn/problems/roman-to-integer/
+224,基本计算器,HARD,2021-04-14 10:11:52,1,https://leetcode.cn/problems/basic-calculator/
+14,最长公共前缀,EASY,2019-12-14 23:18:24,5,https://leetcode.cn/problems/longest-common-prefix/
+9,回文数,EASY,2019-12-13 22:36:47,2,https://leetcode.cn/problems/palindrome-number/
+7,整数反转,MEDIUM,2019-12-12 23:00:43,4,https://leetcode.cn/problems/reverse-integer/
+771,宝石与石头,EASY,2019-03-08 17:48:16,1,https://leetcode.cn/problems/jewels-and-stones/
