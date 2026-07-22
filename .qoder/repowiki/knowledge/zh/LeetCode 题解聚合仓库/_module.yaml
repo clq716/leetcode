@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: ""
+title: LeetCode 题解聚合仓库
+scope:
+    - README.md
+    - pom.xml
+    - export_leetcode.py
+    - leetcode.code-workspace
+    - leetcode.iml
+    - leetcode_solved.csv
+    - .gitignore
+source_files: []
+depends_on: []
+related_to: []

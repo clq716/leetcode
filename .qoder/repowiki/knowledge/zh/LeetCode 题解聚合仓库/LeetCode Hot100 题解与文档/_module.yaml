@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: hot100
+title: LeetCode Hot100 题解与文档
+scope:
+    - src/main/java/hot100/
+source_files: []
+depends_on: []
+related_to: []

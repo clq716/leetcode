@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: leetcode_solutions
+title: LeetCode 题解代码集（editor.cn 模板）
+scope:
+    - src/main/java/leetcode/
+source_files: []
+depends_on: []
+related_to: []

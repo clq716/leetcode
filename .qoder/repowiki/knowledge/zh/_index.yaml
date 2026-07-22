@@ -1,0 +1,42 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: "2026"
+nodes_managed: true
+exported_at: "2026-07-22T02:31:09Z"
+modules:
+    "":
+        dir_name: LeetCode 题解聚合仓库
+        title: LeetCode 题解聚合仓库
+        scope:
+            - README.md
+            - pom.xml
+            - export_leetcode.py
+            - leetcode.code-workspace
+            - leetcode.iml
+            - leetcode_solved.csv
+            - .gitignore
+        source_files: []
+        children:
+            - hot100
+            - leetcode_solutions
+        depends_on: []
+        related_to: []
+    hot100:
+        dir_name: LeetCode Hot100 题解与文档
+        title: LeetCode Hot100 题解与文档
+        scope:
+            - src/main/java/hot100/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    leetcode_solutions:
+        dir_name: LeetCode 题解代码集（editor.cn 模板）
+        title: LeetCode 题解代码集（editor.cn 模板）
+        scope:
+            - src/main/java/leetcode/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
