@@ -3,11 +3,11 @@ schema_version: 1
 locale: zh-CN
 branch: "2026"
 nodes_managed: true
-exported_at: "2026-07-22T02:31:09Z"
+exported_at: "2026-07-22T07:35:00Z"
 modules:
     "":
-        dir_name: LeetCode 题解聚合仓库
-        title: LeetCode 题解聚合仓库
+        dir_name: LeetCode 题解 Maven 聚合工程
+        title: LeetCode 题解 Maven 聚合工程
         scope:
             - README.md
             - pom.xml
@@ -23,8 +23,8 @@ modules:
         depends_on: []
         related_to: []
     hot100:
-        dir_name: LeetCode Hot100 题解与文档
-        title: LeetCode Hot100 题解与文档
+        dir_name: Hot100 精选题目 LeetCode Editor 源码与题解集
+        title: Hot100 精选题目 LeetCode Editor 源码与题解集
         scope:
             - src/main/java/hot100/
         source_files: []

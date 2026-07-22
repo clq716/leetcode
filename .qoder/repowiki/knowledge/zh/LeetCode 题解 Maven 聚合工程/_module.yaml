@@ -1,6 +1,6 @@
 schema_version: 1
 module_path: ""
-title: LeetCode 题解聚合仓库
+title: LeetCode 题解 Maven 聚合工程
 scope:
     - README.md
     - pom.xml

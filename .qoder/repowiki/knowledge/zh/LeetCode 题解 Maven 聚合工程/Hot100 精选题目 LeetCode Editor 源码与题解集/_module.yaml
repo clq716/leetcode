@@ -1,6 +1,6 @@
 schema_version: 1
 module_path: hot100
-title: LeetCode Hot100 题解与文档
+title: Hot100 精选题目 LeetCode Editor 源码与题解集
 scope:
     - src/main/java/hot100/
 source_files: []
