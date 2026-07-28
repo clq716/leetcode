@@ -12,6 +12,10 @@ import java.util.List;
 
 public class Printer {
 	public static void print(Object... args) {
+		if (args == null) {
+			System.out.println("null");
+			return;
+		}
 		for (Object arg : args) {
 			if (arg.getClass().isArray()) {
 				List<Object> list = new ArrayList<>();
