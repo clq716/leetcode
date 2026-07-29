@@ -2,11 +2,35 @@
 Leet code practice code
 Personal Practice Code
 
+## Leetcode Editor Plugin Configuration
 
-## 相向双指针1
-1. [167]两数之和 II - 输入有序数组[TwoSumIiInputArrayIsSorted.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2FTwoSumIiInputArrayIsSorted.java)
-2. [15]三数之和[ThreeSum.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2FThreeSum.java)
-3. [2824]统计和小于目标的下标对数目[CountPairsWhoseSumIsLessThanTarget.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2FCountPairsWhoseSumIsLessThanTarget.java)
-4. [16]最接近的三数之和[_0016_ThreeSumClosest.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0016_ThreeSumClosest.java)
-5. [18]四数之和[_0018_FourSum.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0018_FourSum.java)
-6. [611]有效三角形的个数[_0611_ValidTriangleNumber.java](src%2Fmain%2Fjava%2Fleetcode%2Feditor%2Fcn%2F_0611_ValidTriangleNumber.java)
+### File Path
+`/home/${username}/Workspace/GitHub/leetcode/src/main/java/hot100`
+
+### Code File Name
+`$_$!velocityTool.leftPadZeros($!{question.frontendQuestionId},4)_$!velocityTool.camelCaseName(${question.titleSlug})`
+
+### Code Template
+```java
+package hot100.leetcode.editor.${question.endpointType};
+
+import java.util.*;
+import utils.*;
+import static utils.Printer.print;
+/**
+ * $!{question.frontendQuestionId}: ${question.title}
+ * RedmiBook, Fedora
+ * $!velocityTool.date()
+*/
+@SuppressWarnings({"PrimitiveArrayArgumentToVarargsMethod", "RedundantSuppression"})
+public class $_$!velocityTool.leftPadZeros($!{question.frontendQuestionId},4)_$!velocityTool.camelCaseName(${question.titleSlug}) {
+
+${question.codeWithIndent(4)}
+    
+    static void main() {
+        Solution solution = new $_$!velocityTool.leftPadZeros($!{question.frontendQuestionId},4)_$!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
+        // put your test code here
+        
+    }
+}
+```

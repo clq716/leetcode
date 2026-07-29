@@ -21,9 +21,6 @@ public class $_0206_ReverseLinkedList {
      *     ListNode(int val) { this.val = val; }
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
-     */
-
-    /**
      * 迭代方式
      * public ListNode reverseList(ListNode head) {
      *             if (head == null) return null;
