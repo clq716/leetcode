@@ -35,18 +35,7 @@ public class ListNode {
     }
 
     public ListNode(String nodes) {
-        nodes = nodes.replace('[', ' ').replace(']', ' ').trim();
-        String[] sp = nodes.split(",");
-        int[] arr;
-        if (nodes.isEmpty()) {
-            arr = new int[0];
-        } else {
-            arr = new int[sp.length];
-            for (int i = 0; i < sp.length; i++) {
-                arr[i] = Integer.parseInt(sp[i].trim());
-            }
-        }
-        this(arr);
+        this(Utils.toArray(nodes));
     }
 
     public ListNode(String nodes, int cycle) {
@@ -74,6 +63,6 @@ public class ListNode {
             set.add(cur);
             cur = cur.next;
         }
-        return "[length: " + list.size() + "], " + list.toString();
+        return "[l-" + list.size() + "], " + list;
     }
 }
