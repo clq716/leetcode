@@ -17,6 +17,10 @@ public class Printer {
 			return;
 		}
 		for (Object arg : args) {
+			if (arg == null) {
+				System.out.println("null");
+				continue;
+			}
 			if (arg.getClass().isArray()) {
 				List<Object> list = new ArrayList<>();
 				for (int i = 0; i < Array.getLength(arg); i++) list.add(Array.get(arg, i));
